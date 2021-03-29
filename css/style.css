@@ -479,7 +479,7 @@
   .box2 {
     position: relative;
     display: flex;
-    flex-direction: column;
+  
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 20px;
@@ -869,11 +869,16 @@
       padding: 0px;
   } 
   .box2 {
+
   
     width: 100%;
     height: auto;
     padding: 0px;
     border-radius: 0px;
+  }
+  .box2 h1{
+      margin-right: 0px;
+      padding-right: 0px;
   }
   .box3{
     padding: 0px;
@@ -920,7 +925,7 @@
   /*--------------------@media query--------------------------------------------------*/
   /*----------------------------------------------------------------------------------*/
   /*----------------------------------------------------------------------------------*/
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 415px) {
     
      
      #one{
