@@ -24,15 +24,12 @@ h1 {
   font-family: "Ralewaybolt", 'Courier New', Courier, monospace;
 }
 h2 {
-  font-family: "Ralewaybolt", 'Courier New', Courier, monospace;
-  justify-items: center;
-  align-items: center;
-  font-size: 12px;
+  font-size: 14px;
+  font-family: "Raleway", 'Courier New', Courier, monospace;
 }
 p {
   font-size: 12px;
   font-family: "Raleway", 'Courier New', Courier, monospace;
-  margin: 5px 0px 0px 0px;
 }
   /*Général*//*Général*//*Général*//*Général*//*Général*//*Général*//*Général*//*Général*/
 /*Général*//*Général*//*Général*//*Général*//*Général*//*Général*//*Général*//*Général*/
@@ -150,31 +147,45 @@ header {
   width: 60%;
   margin: 10px 0px 10px 20px;
 }
+.trouver h1{
+font-size: 18px;
+}
+.trouver p{
+  font-size: 14px;
+  }
 .zone {
+  position: relative;
   margin: 10px 0 20px 20px;
   display: flex;
   flex-direction: row;
   width: 300px;
   height: 33px;
   align-items: center;
-  justify-content: space-between;
+ 
   border-radius: 13.33333px;
   border: 2px solid #f2f2f2;
   overflow: visible;
 }
+
 .recherche {
+  position: absolute;
+  right: -2px;
   cursor: pointer;
-  height: 37px;
+  height: 36px;
+  width: 30%;
   background-color: #0065fc;
   border-top-right-radius: 12.5px;
   border-bottom-right-radius: 12.5px;
+  overflow: visible;
+ 
 }
 .txt_recherche {
+  text-align: center;
   color: white;
   font-family: "Raleway", 'Courier New', Courier, monospace;
-  font-size: small;
-  text-align: center;
-  margin: 0px 10px;
+}
+.txt_recherche h2{
+  font-size: 12px;
 }
 .icon_recherche {
   display: none;
@@ -186,10 +197,12 @@ header {
 .recherche :hover {
   opacity: 0.8;
 }
+.boxsaisie{
+  margin-left: 10px;
+}
 form input {
   border: none;
   font-family: "Ralewaybolt", 'Courier New', Courier, monospace;
-  margin-bottom: 5px;
 }
 .zonerecherche {
   background-color: #f2f2f2;
@@ -210,35 +223,37 @@ form input {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 60%;
+  max-width: 70%;
 }
 .filtre {
-  margin: 0px 20px 0px 30px;
+  margin: 0px 0px 0px 20px;
   height: 25px;
 }
 .choix {
+  width: auto;
+  max-width: 190px;
+  margin: 0px 10px;
+}
+.bouton:hover{
+  border: 2px solid #0065fc;
+  box-shadow: 0px 0px 15px #b1abab;
+  transition: 0.4s;
+}
+.bouton {
   cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
   border: 2px solid #ccc6c6;
-  border-radius: 40px;
-  width: auto;
-  height: 30px;
-  max-width: 160px;
-  margin-left: 20px;
-}
-.choix:hover{
-  border: 2px solid #0065fc;
-  box-shadow: 2px 2px 5px #b1abab;
-  transition: 0.3s;
-}
-.bouton {
   position: relative;
+  border-radius: 20px;
+  max-width: 180px;
+  height: 30px;
+  margin: 0px 0px 0px 30px;
 }
 .icon {
   position: absolute;
-  left: 15px;
+  left: -3px;
   text-align: center; 
   border-radius: 50%;
   background-color: #deebff;
@@ -251,24 +266,26 @@ form input {
   font-size: 12px; 
 }
 .txticon {
-  margin: 0px 10px 0px 35px;
+  margin: 0px 10px 0px 30px;
 }
 .iconinfo {
   position: relative;
-  margin: 30px 0px 30px 00px;
+  margin: 30px 0px 30px 10px;
   display: flex;
   flex-direction: row;
 
 }
 .icon_info {
-  font-size: 12px;
+  
   position: absolute;
-  left: 15px;
+  left: 10px;
+  top: 10px;
   border-radius: 50%;
   border: 2px solid #f2f2f2;
   width: 20px;
   height: 20px;
   text-align: center;
+  font-size: 12px;
 }
 .icon_info i{
   padding-top: 2px;
@@ -278,6 +295,9 @@ form input {
   display: flex;
   flex-wrap: wrap;
   margin: 0px 0px 0px 50px;
+}
+.logement p{
+  font-size: 14px;
 }
 /*#one*//*#one*//*#one*//*#one*//*#one*//*#one*/
 /*#one*//*#one*//*#one*//*#one*//*#one*//*#one*/
@@ -289,16 +309,16 @@ form input {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-/* les texte des box */
+/* les texte des box *//* les texte des box *//* les texte des box */
 .txtbox {
   width: 100%;
   cursor: pointer;
 }
 .txt1 {
-  margin: 0px 0px 0px 2%;
+  margin: 20px 0px 0px 2%;
 }
 .txt2 {
-  margin: 0px 0px 0px 13%;
+  margin: 20px 0px 0px 13%;
 }
 .txt3 {
   margin: 0px 0px 10px 5px;
@@ -307,6 +327,7 @@ form input {
   position: absolute;
   right: 15%;
   top: 20px;
+  margin: 20px 0px 0px 0px;
 }
 .txtbox :hover {
   cursor: pointer;
@@ -363,7 +384,7 @@ form input {
 } 
 .cd1_img5 img {
   position: absolute;
-  bottom: 30%;
+  bottom: 40%;
   width: 100%;
 } 
 .cd1_img6 img {
@@ -383,6 +404,14 @@ form input {
   padding-left: 10px;
   line-height: 1.5;
 } 
+.txtcadre1 h2{
+  font-size: 14px;
+  margin: 3px 0px 0px 0px;
+}
+.txtcadre1 p{
+  font-size: 14px;
+  margin: 0px;
+}
 .txtbox1fin {
   width: 100%;
   text-align: left;
@@ -488,8 +517,17 @@ form input {
   overflow: hidden;
   line-height: 2;
 }
+.txtcadre2 h2{
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+  line-height: 1.3;
+}
 .txtcadre2 p{
-  line-height: 1.5;
+  font-size: 12px;
+  margin: 0px;
+}
+.txtcadre2 .star {
+  bottom: -3px;
 }
 
 /*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*/ 
@@ -509,7 +547,7 @@ form input {
 .cadre3 {
   position: relative;
   width: 100%;
-  border: 3px solid white;
+  border: 0px solid white;
   box-shadow: 2px 2px 10px #b1abab;
   border-radius: 20px;
   overflow: hidden;
@@ -518,21 +556,16 @@ form input {
   position: relative;
   width: 100%;
   height: 45%;
-  border: 3px solid white;
+  border: 0px solid white;
   box-shadow: 2px 2px 10px #b1abab;
   border-radius: 20px;
   overflow: hidden;
- 
 }
 .cadre3_2.fort{
   height: 50%;
-
-
   }
 .cadre3_2.friout{
 max-height: 40%;
-
-
 }
 .cadre3_2 img {
   width: 100%;
@@ -547,7 +580,7 @@ max-height: 40%;
 .cadre3 img {
   width: 100%;
   height: 100%;
-     object-fit: cover;
+    
 }
 .cadre3:hover {
   cursor: pointer;
@@ -564,6 +597,9 @@ max-height: 40%;
   bottom: 0px;
   background-color: white;
   padding: 0px 0px 5px 10px;
+}
+.txtcadre3 h2{
+  margin: 5px 0px 5px 10px;
 }
 .cadrebox3_1 {
   display: flex;
@@ -587,8 +623,8 @@ max-height: 40%;
   background-color: #f2f2f2;
   width: 100%;
   justify-content: space-between;
-  justify-items: self-start;
   margin-top: 30px;
+  padding: 20px 0px;
 }
 .txtfooter {
   width: 30%;
@@ -629,6 +665,9 @@ max-height: 40%;
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 @media screen and (max-width: 1155px) {
+  .cadrefiltre{
+    max-width: 100%;
+  }
 .cadre1{
   width: 175px;
   height: 160px;
@@ -648,6 +687,7 @@ max-height: 40%;
 .star{
   bottom: 0px;
 }
+
 }
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -655,9 +695,7 @@ max-height: 40%;
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 @media screen and (max-width: 1055px) {
-  .cadrefiltre{
-    max-width: 100%;
-  }
+  
   .cadre1{
     width: 175px;
     height: 140px;
@@ -676,9 +714,29 @@ max-height: 40%;
    line-height: 1;
    height: 50px;
   }
+  .txtcadre1 h2{
+    font-size: 12px;
+    margin: 7px 0px 3px 0px;
+  }
+  .txtcadre1 p{
+    font-size: 10px;
+    margin: 0px;
+  }
   .txtcadre2{
    line-height: 1.3;
    width: 120px;
+  }
+  .txtcadre2 h2{
+    font-size: 12px;
+    margin: 7px 0px 3px 0px;
+  }
+  .txtcadre2 p{
+    font-size: 10px;
+    margin: 0px;
+  }
+  .txtcadre3 h2{
+    font-size: 12px;
+    margin: 7px 0px 3px 10px;
   }
   .box1{
     width: 65%;
@@ -711,6 +769,10 @@ max-height: 40%;
  .txt1{
     margin: 10px 0px 0px 20px;
   }
+  .txt2 i{
+    font-size: 12px;
+    top: 10px;
+  }
 }
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -735,9 +797,7 @@ max-height: 40%;
 .txt2{
 margin: 0px 0px 0px 5%;
 }
-.txt2 i{
-top: 30px;
-}
+
 .txt1{
 margin: 10px 0px 0px 20px;
 }
@@ -748,8 +808,8 @@ top: 0px;
 width: 100%;
 }
 .cadrebox3_1 {
-  height: 300px;
-
+height: 300px;
+  
 }
 .cadrebox3_2 {
 height: 300px;
@@ -765,6 +825,9 @@ height: 300px;
 @media screen and (max-width: 880px) {
   .cadrefiltre{
     width: 100%;
+  }
+  .logement p{
+    font-size: 13px;
   }
 .cadre1{
   width: 150px;
@@ -791,8 +854,17 @@ width: 80%;
 .txtcadre2{
   width: 110px;
 }
+.txtcadre2 h2{
+
+ margin: 5px 0px 0px 0px;
+ line-height: 1.2;
+}
+.txtcadre2 p{
+  margin: 0px 0px 40px 0px;
+  line-height: 1.1;
+}
 .txtcadre3{
-  height: 40px;
+  height: 30px;
 }
 .footer {
   margin-top: 5px;
@@ -814,87 +886,88 @@ width: 80%;
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 @media screen and (max-width: 770px) {
-   #one{
+#one{
        padding-top: 20px;
    }
-   .zone {
-     max-width: 50%;    
+.zone {
+  max-width: 50%;    
    }
-   .zone_choix {
-     min-width: 300px;
+.zone_choix {
+  min-width: 300px;
   }
-  .bouton {
-    margin: 5px 0px;
+.bouton {
+  margin: 5px 10px;
   }
-  .choix {
-     margin-left: 5px;
+.choix {
+  margin-left: 5px;
   }
-  .icon{
-      left: 5px;
+  
+.filtre {
+  margin-left: 10px;
   }
-  .filtre {
-    margin-left: 20px;
+ 
+.trouver {
+  margin: 10px 0px 10px 20px;  
   }
-  .trouver {
-    margin: 10px 0px 10px 20px;  
+.txt2 h1{
+  position: absolute;
+  top: 20px;
+  font-size: 12px;
+  line-height: 20px;
+    }
+.cadre2{
+  height: 80px;
   }
-  .cadre1{
-    width: 130px;
-    height: 120px;
+.txtcadre2 {
+  width:90px;
   }
-  .txt2 h1{
-    position: absolute;
-    top: 20px;
-    font-size: 12px;
-   line-height: 20px;
-  }
-  .txt2 i{
-    font-size: 12px;
-    top: 31px;
-  }
-  .cadre2{
-    height: 80px;
-  }
-  .txtcadre2 {
-    width:80px;
-  }
-  .txtcadre1 {
-    height: 45px;
+.txtcadre1 {
+  height: 45px;
   } 
-  .txtcadre1 p{
-    line-height: 2;
-    font-size: 10px;
-    line-height: 1;
+.txtcadre1 h2{
+  font-size: 10px;
   }
-  .txtcadre2 p{
-    font-size: 10px;
-    line-height: 1;
+.txtcadre1 p{
+  font-size: 10px;
+  line-height: 1;
   }
-  
-  .txtbox1fin {
-    margin-left: 10px;
+.txtcadre1 .star{
+  bottom: -3px;
   }
-   
-  
-    .cd2_img1 img {
-     width: 100%;
-     right: 60px;
+.txtcadre2 h2{
+  font-size: 10px;
+  line-height: 1.5;
+  }
+.txtcadre2 p{
+  font-size: 10px;
+  line-height: 1.1;
+  }
+.txtcadre2 .star{
+  bottom: -5px;
+  }
+.txtcadre3{
+  height: 40px;
+  }
+.txtbox1fin {
+  margin-left: 10px;
+  }
+.cd2_img1 img {
+    width: 100%;
+    right: 60px;
     }
-    .cd2_img2 img {
-      position: absolute;
-      right: 60px;
-      
+.cd2_img2 img {
+    position: absolute;
+     right: 60px;    
     }
-    .cd2_img3 img {
-      width: 70%;
+.cd2_img3 img {
+     width: 70%;
     } 
-    .star{
-      position: absolute;
-      bottom: 0px;
-     }
-    
-    .txtfooter {
-      width: 150px;
+.star{
+    position: absolute;
+    bottom: 0px;
+     }   
+.txtfooter {
+    width: 150px;
     }
  }
  /*----------------------------------------------------------------------------------*/
@@ -902,7 +975,8 @@ width: 80%;
  /*--------------------@media query--------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
- @media screen and (max-width: 620px) {
+ @media screen and (max-width: 670px) {
+   
  #one{
   padding-top: 20px;
 }
@@ -916,303 +990,232 @@ width: 80%;
     order: 3;
 }
 header{
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 .iconinfo{
-margin-left: 0px;
+    margin-left: 0px;
 }
 .menu {
-display: flex;
-flex-wrap: wrap;
-width: 100%;
-height: 30px;
-margin-top: 10px;
-padding-top: 40px;
-line-height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 40px;
+    line-height: 20px;
 }
 .ins {
-position: absolute;
-top: 0px;
-right: 0px;
-width: 30%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30%;
 }
 .act {
-position: absolute;
-bottom: 0px;
-width: 50%;
-right: 0%;
-border-bottom: 2px solid #f2f2f2;
-line-height: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 50%;
+    right: 0%;
+    border-bottom: 2px solid #f2f2f2;
+    line-height: 30px;
 }
 .heb {
-position: absolute;
-bottom: 0px;
-width: 50%;
-border-bottom: 2px solid #0065fc;
-border-top: 0;
-left: 0%;
-line-height: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 50%;
+    border-bottom: 2px solid #0065fc;
+    border-top: 0;
+    left: 0%;
+    line-height: 30px;
 }
-.cadrebox3_1{
-width: 100%;
-height: auto;
-}  
-.cadrebox3_2{
- width: 100%;
-height: auto;
-}   
-.cadre3{
-width: 400px;
-height: 205px;
-margin: 10px auto;
-} 
-.cadre3_2{
+.trouver{
+    width: 90%;
+}
 
-width: 420px;
-height: 205px;
-margin: 10px auto;
-} 
-.cadre3_2.fort{
- height: 160px; 
- width: 400px;
-margin: 10px;
-  }
-.cadre3_2.friout{
-max-height: 280px;
-width: 400px;
-margin: 10px;
+.zonerecherche{
+    min-width: 35px;
 }
+  
+/*-------------------------------------*//*-------------------------------------*/
+/*-------------------------------------*//*-------------------------------------*/
+ 
+.cadrebox3_1, .cadrebox3_2{
+    width: 100%;
+    height: auto;
+    padding: 0px 10px
+  }  
+
 .cadre1 {
-width: 420px;
-height: 230px;
-}
-.txtcadre1 {
-height: 60px;
-}
-.cd1_img1 img {
-position: absolute;
-bottom: 20%;
-width: 100%;
-}
-.txtbox1fin {
-margin-left: 40px;
-}
-.box1{
-  width: 100%;
-  border-radius: 0px;
-  padding: 0px;
-} 
-.box2 {
-margin: 0px;
-width: 100%;
-height: auto;
-padding: 0px;
-border-radius: 0px;
-}
-.box2 h1{
-  margin-right: 0px;
-  padding-right: 0px;
-}
-.box3{
-padding: 0px;
-margin: 0px;
-align-items: center;
+    width: 100%;
+    height: 250px;
+    margin: 10px 0px;
+    
 }
 .cadre2 {
-width: 400px;
-height: 180px;
-border-radius: 20px;
-margin: 20px auto;
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    
+  }
+  .cadre3, .cadre3_2, .cadre3_2.fort, .cadre3_2.friout {
+   width:100%;
+    height: 250px;
+    margin: 10px auto;
+  }
+.txtcadre1 {
+    height: 60px;
+  }
+/*-----------------------------------*//*-------------------------------------*/
+/*-------------------------------------*//*-------------------------------------*/
+.cd1_img1 img {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+}
+.cd2_img1 img {
+    width: 80%;
+    right: 150px;
+  }
+.cd2_img2 img {
+    right: 170px;
+    width: 70%;
+  }
+  .cd2_img3 img {
+    right: 280px;
+    width: 60%;
+    }
+.txtbox1fin {
+    margin-left: 40px;
+}
+.box1{
+    width: 100%;
+    border-radius: 0px;
+ 
+    background-color: white;
+} 
+.box1 h1{
+    font-size: 16px;
+    margin: 20px 0px 10px 20px ;
+} 
+.box2 {
+    margin: 0px;
+    width: 100%;
+    height: 700px;
+    padding: 0px;
+    border-radius: 0px;
+}
+.box2 h1{
+    margin: 20px 0px 20px 20px;
+}
+.box3{
+    padding: 0px;
+    margin-bottom: 30px;
+    align-items: center;
 }
 .txtcadre2 {
-padding: 0px;
-width: 150px;
-height: 100%;
+    padding-left: 10px;
+    width: 50%;
+    height: 100%;
 }
-.txtcadre2 p {
-padding-left: 10px;
-padding-top: 10px;
-font-size: 14PX;
+.txtcadre2 h2{
+    margin: 15px 0px 0px 10px;
+    font-size: 16px;
+  }
+.txtcadre2 p{
+    margin: 0px 0px 100px 10px;
+    font-size: 14px;
 }
 .txtcadre2 .star {
-padding-left: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+    bottom: 10px;
 }
-.star{
-padding-bottom: 20px;
-}
+.txtcadre1 {
+    width: 100%;
+    height:80px;
+  }
+.txtcadre1 h2{
+    margin: 15px 0px 0px 0px;
+    font-size: 16px;
+    }
+.txtcadre1 p{
+    margin: 5px 0px 100px 0px;
+    font-size: 14px;
+  }
+.txtcadre1 .star {
+    font-size: 11px;
+    margin-left: 0px;
+    bottom: 3px;
+  }
 .txt1 {
-margin-left: 40px;
+    margin-left: 10px;
 }
-
 .txt2 {
-margin-left: 20%;
+    margin: 20px 0px 20px 10px;
 }
-
+.txt2 h1{
+    top: 0px;
+    font-size: 16px;
+}
+.txt2 i{
+    font-size: 16px;
+    top: 0px;
+}
 .txt3 {
-margin-left: 20px;
+    margin-left: 20px;
 }
 .footer{
-flex-direction: column;
-padding-left: 0px;
+    flex-direction: column;
+    padding-left: 0px;
 }
 .txtfooter{
-padding: 20px 0px 30px 10px;
+    padding: 20px 0px 30px 10px;
 }
  }
+  /*----------------------------------------------------------------------------------*/
+ /*----------------------------------------------------------------------------------*/
+ /*--------------------@media query--------------------------------------------------*/
+ /*----------------------------------------------------------------------------------*/
+ /*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 550px) {
+.recherche {
+    width: 34px;
+    height: 34px;
+    border: 2px solid #0065fc;
+    border-radius: 14.28571px;
+    }
+.zone{
+    min-width:200px ;
+    }
+.zonerecherche{
+    min-width: 35px;
+    }
+.txt_recherche {
+      display: none;
+    }
+.icon_recherche {
+      display: inline;
+    }
+    .cd2_img3 img {
+      right: 200px;
+      width: 60%;
+    }
+} 
+    
+    
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
  /*--------------------@media query--------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
-  @media screen and (max-width: 445px) {
+   @media screen and (max-width: 445px) {
     
-     
-     #one{
-         padding-top: 20px;
-     }
-     .zone {
-       width: 80%;
-       overflow: visible;
-     }
-     .zone_choix {
-       min-width: 300px;
-    }
-    .bouton {
-      margin: 5px 0px;
-    }
-    .choix {
-       margin-left: 5px;
-    }
-    .icon{
-        left: 5px;
-    }
-    .filtre {
-      margin-left: 5px;
-    }
-    .cadrefiltre{
-      
-      max-width: 50%;
-    }
-    .trouver {
-      padding: 20px 0px 10px 0px;
-    }
     
-  
-    .txtcadre1 {
-      height: 60px;
-    }
-    .cd1_img1 img {
-      position: absolute;
-      bottom: 20%;
-      width: 100%;
-    }
-    .txtbox1fin {
-      margin-left: 40px;
-    }
-    .box1{
-        border-radius: 0px;
-    }
-    .box3{
-      margin-bottom: 20px;
-    }
-    .cadrebox3_2 {
-      height: 520px;
-       width: 100%;
-       margin: 0px auto;
-     }
-    .cadrebox3_1 {
-      height: 270px;
-       width: 100%;
-       margin: 5px auto;
-     }
-     .cadre3 {
-      width:100%;
-      height:220px;
-      margin: 10px auto;
-    }
-     .cadre3_2 {
-       width: 100%;
-       height: 220px;
-       margin: 10px auto;
-     }
-     .cadre3_2.fort{
-      height: 220px; 
-      width: 100%;
-     margin: 10px auto;
-       }
-     .cadre3_2.friout{
-     max-height: 220px;
-     width: 100%;
-     margin: 10px auto;
-     }
-     .recherche {
-       height: 100%;
-       border: 2px solid #0065fc;
-       border-radius: 14.28571px;
-     }
-     .txt_recherche {
-       display: none;
-     }
-     .icon_recherche {
-       display: inline;
-     }
-     .txt1 {
-       margin: 10px 0px 0px 25px;
-     }
-     .txt2 {
-       margin: 0px 0px 0px 22%;
-     }
-     .txt2 i {
-       position: absolute;
-       right: 10%;
-       top: 10px;
-     }
-     .txt3 {
-       margin: 0px 0px 10px 20px;
-     }
-     .txtbox1fin {
-       margin: 10px 0px 0px 25px;
-     }
-     .cd1_img2 img {
-        position: absolute;
-        bottom: 10%;
-        width: 100%;
-      }
-      .cd1_img3 img {
-        position: absolute;
-        bottom: 25%;
-        width: 100%;
-      }
-      .cd1_img4 img {
-        position: absolute;
-        bottom: 0%;
-        width: 100%;
-      }
-      .cd1_img5 img {
-        position: absolute;
-        bottom: 30%;
-        width: 100%;
-      }
-      .cd2_img1 img {
-        position: absolute;
-        top: 5px;
-        right: 120px;
-        height: 100%;
-      }
-      .cd2_img2 img {
-        height: 160px;
-      }
-      .cd2_img3 img {
-        width: 65%;
-      }
-      .footer {
-        
-       }
-       .txtfooter {
-         width: 300px;
-       }
    
-   }
+        .cd2_img3 img {
+          right: 160px;
+        
+      }
+    }
   
    /*----------------------------------------------------------------------------------*/
    /*----------------------------------------------------------------------------------*/
