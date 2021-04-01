@@ -109,8 +109,7 @@ header {
   font-family: "Ralewaybolt", 'Courier New', Courier, monospace;
   font-size: 12px;
 }
-.heb 
-{
+.heb {
   border-top: 2px solid #0065fc;
   width: 100%;
 }
@@ -121,7 +120,6 @@ header {
   margin-top: 2px;
   width: 100%;
 }
-
 .act a {
   color: black;
 }
@@ -161,12 +159,10 @@ font-size: 18px;
   width: 300px;
   height: 33px;
   align-items: center;
- 
   border-radius: 13.33333px;
   border: 2px solid #f2f2f2;
   overflow: visible;
 }
-
 .recherche {
   position: absolute;
   right: -2px;
@@ -177,7 +173,6 @@ font-size: 18px;
   border-top-right-radius: 12.5px;
   border-bottom-right-radius: 12.5px;
   overflow: visible;
- 
 }
 .txt_recherche {
   text-align: center;
@@ -273,10 +268,8 @@ form input {
   margin: 30px 0px 30px 10px;
   display: flex;
   flex-direction: row;
-
 }
-.icon_info {
-  
+.icon_info { 
   position: absolute;
   left: 10px;
   top: 10px;
@@ -357,7 +350,6 @@ form input {
   cursor: pointer;
   margin: 0px 10px 20px 10px;
 }
-
 .cadre1:hover {
   transform: scale(1.1);
   transition: transform 0.3s;
@@ -580,7 +572,6 @@ max-height: 40%;
 .cadre3 img {
   width: 100%;
   height: 100%;
-    
 }
 .cadre3:hover {
   cursor: pointer;
@@ -653,7 +644,6 @@ max-height: 40%;
     width: 200px;
     height: 180px;
   }
-  
   .cd1_img3 img {
     width: 100%;
     bottom: 60px;
@@ -687,7 +677,6 @@ max-height: 40%;
 .star{
   bottom: 0px;
 }
-
 }
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -797,7 +786,6 @@ max-height: 40%;
 .txt2{
 margin: 0px 0px 0px 5%;
 }
-
 .txt1{
 margin: 10px 0px 0px 20px;
 }
@@ -809,11 +797,9 @@ width: 100%;
 }
 .cadrebox3_1 {
 height: 300px;
-  
 }
 .cadrebox3_2 {
 height: 300px;
-
 }
 }
 
@@ -1030,7 +1016,6 @@ header{
 .trouver{
     width: 90%;
 }
-
 .zonerecherche{
     min-width: 35px;
 }
@@ -1043,18 +1028,15 @@ header{
     height: auto;
     padding: 0px 10px
   }  
-
 .cadre1 {
     width: 100%;
     height: 250px;
-    margin: 10px 0px;
-    
+    margin: 10px 0px; 
 }
 .cadre2 {
     width: 100%;
     height: 180px;
     border-radius: 20px;
-    
   }
   .cadre3, .cadre3_2, .cadre3_2.fort, .cadre3_2.friout {
    width:100%;
@@ -1200,23 +1182,16 @@ header{
       width: 60%;
     }
 } 
-    
-    
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
  /*--------------------@media query--------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
    @media screen and (max-width: 445px) {
-    
-    
-   
         .cd2_img3 img {
           right: 160px;
-        
       }
     }
-  
    /*----------------------------------------------------------------------------------*/
    /*----------------------------------------------------------------------------------*/
    /*--------------------@media query--------------------------------------------------*/
