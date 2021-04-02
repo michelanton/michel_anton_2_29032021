@@ -554,7 +554,6 @@ form input {
   overflow: hidden;
 }
 .cadre3_2.fort{
-  
   height: 50%;
   }
 .cadre3_2.friout{
@@ -1279,8 +1278,8 @@ header{
       width: 70%;
   }
     .cd2_img3 img {
-        right: 150px;
-        width: 70%;
+      right: 204px;
+      width: 48%
       }
     }
    /*----------------------------------------------------------------------------------*/
