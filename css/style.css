@@ -230,8 +230,8 @@ form input {
   margin: 0px 10px;
 }
 .bouton:hover{
-  border: 2px solid #0065fc;
-  box-shadow: 0px 0px 15px #b1abab;
+  border: 2px solid #deebff;
+  box-shadow: 0px 0px 10px #b1abab;
   transition: 0.4s;
 }
 .bouton {
