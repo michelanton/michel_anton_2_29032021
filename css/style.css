@@ -554,10 +554,11 @@ form input {
   overflow: hidden;
 }
 .cadre3_2.fort{
+  
   height: 50%;
   }
 .cadre3_2.friout{
-max-height: 40%;
+  max-height: 40%;
 }
 .cadre3_2 img {
   width: 100%;
