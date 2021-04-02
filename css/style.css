@@ -281,13 +281,13 @@ form input {
   font-size: 12px;
 }
 .icon_info i{
-  padding-top: 2px;
+  padding-top: 3px;
    color: #0065fc;
 }
 .logement {
   display: flex;
   flex-wrap: wrap;
-  margin: 0px 0px 0px 50px;
+  margin: 0px 10px 0px 50px;
 }
 .logement p{
   font-size: 14px;
@@ -570,8 +570,10 @@ max-height: 40%;
   transition: transform 0.3s;
 }
 .cadre3 img {
-  width: 100%;
+  position: absolute;
+  right:-260px;
   height: 100%;
+  object-fit: cover;
 }
 .cadre3:hover {
   cursor: pointer;
@@ -801,6 +803,11 @@ height: 300px;
 .cadrebox3_2 {
 height: 300px;
 }
+.cadre3 img {
+  position: absolute;
+  right:-120px;
+ ;
+}
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -871,7 +878,7 @@ width: 80%;
 /*--------------------@media query--------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 780px) {
 #one{
        padding-top: 20px;
    }
@@ -1110,6 +1117,12 @@ header{
     padding: 0px;
     margin-bottom: 30px;
     align-items: center;
+}
+.cadre3 img {
+  
+  right:0px;
+ width: 100%;
+  
 }
 .txtcadre2 {
     padding-left: 10px;
