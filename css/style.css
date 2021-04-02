@@ -845,7 +845,7 @@ width: 80%;
 }
 .cd2_img3 img {
   position: absolute;
-  top: -84px;
+  top: -88px;
   right: 113px;
   width: 80%;
 }
@@ -1305,7 +1305,10 @@ header{
     .txtbox1fin{
       margin-left: 0px;
     } 
-    
+    .cd1_img1 img {
+      position: absolute;
+      bottom: 19%;
+     }
     .cd2_img1 img {
       right: 100px;
       width: 90%;
@@ -1333,7 +1336,7 @@ header{
   } 
   .cd1_img1 img {
     position: absolute;
-    bottom: 19%;
+    bottom: 24%;
    }
   }
    /*----------------------------------------------------------------------------------*/
@@ -1342,6 +1345,11 @@ header{
    /*----------------------------------------------------------------------------------*/
    /*----------------------------------------------------------------------------------*/
    @media screen and (max-width: 321px) {
+    .cd1_img5 img {
+      position: absolute;
+      bottom: 32%;
+      width: 106%;
+  }
     .cd2_img3 img {
       right: 149px;
       width: 70%;
