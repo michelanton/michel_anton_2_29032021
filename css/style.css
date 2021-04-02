@@ -759,7 +759,7 @@ form input {
   }
   .cd2_img3 img {
     position: absolute;
-    top: -35px;
+    top: 0px;
   width: 50%;
   }
  .txt1{
@@ -811,6 +811,7 @@ height: 300px;
 .cadre3 img {
   position: absolute;
   right:-120px;
+  top: 0px;
 }
 }
 
@@ -876,6 +877,12 @@ width: 80%;
 }
 .txtcadre2 p{
   font-size: 11px;
+}
+.cd2_img3 img {
+  position: absolute;
+  top: -71px;
+  right: 113px;
+  width: 80%;
 }
 }
 /*----------------------------------------------------------------------------------*/
@@ -984,7 +991,7 @@ width: 80%;
      position: absolute;
     right: 90px;
     width: 60%;
-    top: -38px;
+    top: 0px;
     }
     
   }
@@ -1215,7 +1222,7 @@ header{
     
     width: 50%;
     right: 316px;
-    top: -155px;
+    top: -10px;
   }
 }
  /*----------------------------------------------------------------------------------*/
@@ -1300,7 +1307,7 @@ header{
     .cd2_img3 img {
       right: 183px;
     width: 53%;
-    top: -53px;
+    top: 0px;
       }
     }
    /*----------------------------------------------------------------------------------*/
@@ -1312,7 +1319,7 @@ header{
     .cd2_img3 img {
       right: 176px;
       width: 60%;
-      top: -67px;
+      top: 0px;
   } 
    }
    /*----------------------------------------------------------------------------------*/
@@ -1322,9 +1329,9 @@ header{
    /*----------------------------------------------------------------------------------*/
    @media screen and (max-width: 321px) {
     .cd2_img3 img {
-      right: 158px;
-    width: 50%;
-    top: 0px;
+      right: 149px;
+      width: 70%;
+      top: 0px;
   } 
   .cd2_img1 img {
     right: 94px;
