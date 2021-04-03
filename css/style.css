@@ -759,8 +759,8 @@ form input {
   }
   .cd2_img3 img {
     position: absolute;
-    top: -30px;
-    width: 50%;
+    top: 0px;
+    width: 55%;
   }
  .txt1{
     margin: 10px 0px 0px 20px;
@@ -842,7 +842,7 @@ form input {
 }
 .cd2_img3 img {
   position: absolute;
-  top: -67px;
+  top: -19px;
   right: 113px;
   width: 80%;
 }
@@ -876,12 +876,6 @@ form input {
 .txtcadre2 p{
   font-size: 11px;
 }
-.cd2_img3 img {
-  position: absolute;
-  top: -79px;
-  right: 113px;
-  width: 80%;
-}
 }
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -903,7 +897,7 @@ form input {
 }
 .cd2_img3 img {
   width: 116%;
-  top: -109px;
+  
   right: 92px;
 }
 .txt2 h1{
@@ -994,10 +988,10 @@ form input {
   right: 60px;    
 }
 .cd2_img3 img {
-  width: 92%;
-  top: -60px;
+  width: 100%;
+  top: -4px;
   right: 91px;
-    } 
+}
 .star{
     position: absolute;
     bottom: 0px;
@@ -1060,6 +1054,9 @@ form input {
 header{
     padding-bottom: 20px;
 }
+.logo{
+  margin-left: 10px;
+}
 .iconinfo{
     margin-left: 0px;
 }
@@ -1097,10 +1094,21 @@ header{
 }
 .trouver{
     width: 90%;
+    margin-left: 10px;
+}
+.zone {
+  margin-left: 10px;
 }
 .zonerecherche{
     min-width: 35px;
 }
+.filtre{
+  margin-left: 10px;
+}
+.bouton {
+  margin: 5px 10px;
+}
+
 
 /*-------------------------------------*//*-------------------------------------*/
 /*-------------------------------------*//*-------------------------------------*/
@@ -1148,7 +1156,6 @@ header{
   }
   .cd2_img3 img {
     width: 50%;
-    top: -161px;
     right: 326px;
     }
 .txtbox1fin {
@@ -1218,7 +1225,7 @@ header{
     margin-left: 0px;
     bottom: 3px;
   }
-  .txtbox{
+.txtbox{
     margin: 20px 0px 0px 0px;
   }
 .txt1 h1{
@@ -1249,7 +1256,7 @@ header{
     padding: 20px 0px 30px 10px;
 }
 .icon_info{
-    margin-left: 10px
+    margin-left: 0px
 }
 .txtbox1fin{
     margin-left: 0px;
@@ -1322,7 +1329,7 @@ header{
     .cd2_img3 img {
       right: 270px;
       width: 55%;
-      top: -145px;
+     
     }
     .cd2_img2 img {
       right: 263px;  
@@ -1379,7 +1386,7 @@ header{
     .cd2_img3 img {
       right: 220px;
       width: 53%;
-      top: -80px;
+     
     }
     }
     /*----------------------------------------------------------------------------------*/
@@ -1463,19 +1470,21 @@ header{
     width: 120%;
     bottom: 12px;
 }
-  .cd2_img3 img {
-    right: 140px;
-    width: 80%;
-  } 
-  .cd2_img2 img {
-    right: 60px;
-    width: 100%;
-} 
-  .cd2_img1 img {
-    right: 65px;
-    width: 116%;
-    top: -10px;
+.cd2_img1 img {
+  right: 65px;
+  width: 116%;
+  top: -10px;
 }
+.cd2_img2 img {
+  right: 60px;
+  width: 100%;
+}
+.cd2_img3 img {
+  right: 140px;
+  width: 89%;
+  top: 0px;
+}
+
    }
     /*----------------------------------------------------------------------------------*/
    /*----------------------------------------------------------------------------------*/
