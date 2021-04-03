@@ -759,7 +759,7 @@ form input {
   }
   .cd2_img3 img {
     position: absolute;
-    top: 0px;
+    top: -45px;
     width: 55%;
   }
  .txt1{
@@ -842,7 +842,7 @@ form input {
 }
 .cd2_img3 img {
   position: absolute;
-  top: -19px;
+  top: -80px;
   right: 113px;
   width: 80%;
 }
@@ -989,7 +989,7 @@ form input {
 }
 .cd2_img3 img {
   width: 100%;
-  top: -4px;
+  top: -70px;
   right: 91px;
 }
 .star{
@@ -1157,6 +1157,7 @@ header{
   .cd2_img3 img {
     width: 50%;
     right: 326px;
+    top: -175px;
     }
 .txtbox1fin {
     margin-left: 40px;
@@ -1359,7 +1360,8 @@ header{
     right: 200px;  
   } 
   .cd2_img3 img {
-    right: 240px;  
+    right: 240px;
+    top: -105px;  
   } 
   .cd1_img1 img {
     bottom: 0px;
@@ -1482,7 +1484,7 @@ header{
 .cd2_img3 img {
   right: 140px;
   width: 89%;
-  top: 0px;
+  top: -130px;
 }
 
    }
