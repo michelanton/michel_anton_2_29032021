@@ -1191,7 +1191,7 @@ height: 146%;
 .box2 {
     margin: 0px;
     width: 100%;
-    height: 700px;
+    height: 760px;
     padding: 0px;
     border-radius: 0px;
 }
@@ -1245,11 +1245,8 @@ height: 146%;
     bottom: 3px;
   }
   .txtbox{
-    margin-left: 0px;
+    margin: 20px 0px 0px 0px;
   }
-.txt1 {
-    margin-left: 0px;
-}
 .txt1 h1{
   margin-left: 0px;
 }
@@ -1498,7 +1495,7 @@ top: 0px;
     top: 0px;
 }
 .cd2_img3 img {
-  right: 176px;
+  right: 170px;
   width: 73%;
 
 }
