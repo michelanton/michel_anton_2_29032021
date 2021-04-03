@@ -762,7 +762,7 @@ form input {
   }
   .cd2_img3 img {
     position: absolute;
-    top: 0px;
+    top: -30px;
     width: 50%;
   }
  .txt1{
@@ -846,7 +846,7 @@ width: auto;
 }
 .cd2_img3 img {
   position: absolute;
-  top: -88px;
+  top: -67px;
   right: 113px;
   width: 80%;
 }
@@ -909,8 +909,8 @@ right: 46px;
 }
 .cd2_img3 img {
   width: 116%;
-top: 0px;
-right: 94px;
+  top: -109px;
+  right: 92px;
 }
 .txt2 h1{
   font-size: 12px;
@@ -999,18 +999,23 @@ right: 94px;
 .txtbox1fin {
   margin-left: 10px;
   }
-.cd2_img1 img {
-  width: 124%;
-  right: 39px;
-  top: 0px;
-    }
+  .cd2_img1 img {
+    width: 124%;
+    right: 39px;
+    top: 0px;
+      }
+.cd1_img5 img {
+  bottom: 28%;
+    width: 115%;
+}
+    
 .cd2_img2 img {
     position: absolute;
      right: 60px;    
     }
 .cd2_img3 img {
   width: 92%;
-  top: 0px;
+  top: -60px;
   right: 91px;
     } 
 .star{
@@ -1167,7 +1172,7 @@ height: 146%;
   .cd2_img3 img {
    
     width: 50%;
-    top: -50px;
+    top: -161px;
     right: 326px;
     }
 .txtbox1fin {
