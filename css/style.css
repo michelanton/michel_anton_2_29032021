@@ -1453,6 +1453,12 @@ header{
    .cd1_img6 img {
     bottom: 0px;
 }
+.cd2_img1 img {
+  right: 95px;
+  width: 100%;
+  height: auto;
+  top: 0px;
+}
    .cd2_img2 img {
     right: 106px;
     width: 90%;
