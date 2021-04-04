@@ -1434,7 +1434,7 @@ header{
    /*----------------------------------------------------------------------------------*/
    @media screen and (max-width: 361px) {
    .cd1_img6 img {
-    bottom: -40px;
+    bottom: 0px;
 }
    .cd2_img2 img {
     right: 106px;
