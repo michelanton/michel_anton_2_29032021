@@ -25,7 +25,7 @@ h1 {
   font-family: "Ralewaybolt", 'Courier New', Courier, monospace;
 }
 h2 {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Raleway", 'Courier New', Courier, monospace;
 }
 p {
@@ -154,7 +154,7 @@ header {
   }
 .zone {
   position: relative;
-  margin: 10px 0 20px 40px;
+  margin: 10px 0 20px 25px;
   display: flex;
   flex-direction: row;
   width: 300px;
@@ -213,21 +213,21 @@ form input {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+ 
 }
 .cadrefiltre {
   position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 70%;
+
 }
 .filtre {
   margin: 0px 0px 0px 30px;
   height: 25px;
+  line-height: 0.5;
 }
 .choix {
-  width: auto;
-  max-width: 190px;
   margin: 0px 10px;
 }
 .bouton:hover{
@@ -243,7 +243,6 @@ form input {
   border: 2px solid #ccc6c6;
   position: relative;
   border-radius: 20px;
-  max-width: 190px;
   height: 30px;
   margin: 0px 0px 0px 30px;
 }
@@ -266,7 +265,7 @@ form input {
 }
 .iconinfo {
   position: relative;
-  margin: 30px 0px 30px 20px;
+  margin: 20px 0px 20px 20px;
   display: flex;
   flex-direction: row;
 }
@@ -309,7 +308,7 @@ form input {
   cursor: pointer;
 }
 .txt1 {
-  margin: 20px 0px 0px 2%;
+  margin: 20px 0px 0px 25px;
 }
 .txt2 {
   margin: 20px 0px 0px 15%;
@@ -320,7 +319,7 @@ form input {
 .txt2 i{
   position: absolute;
   right: 15%;
-  top: 20px;
+  top: 25px;
   margin: 20px 0px 0px 0px;
 }
 .txtbox :hover {
@@ -402,7 +401,7 @@ form input {
   margin: 3px 0px 0px 0px;
 }
 .txtcadre1 p{
-  font-size: 14px;
+  font-size: 12px;
   margin: 0px;
 }
 .txtbox1fin {
@@ -467,7 +466,6 @@ form input {
   align-items: center;
   width: 30%;  
   padding: 10px;
-  align-content: center;
 }
 .cadre2 {
   position: relative;
@@ -475,9 +473,9 @@ form input {
   flex-direction: row;
   cursor: pointer;
   width: 300px;
-  height: 120px;
+  height: 122px;
   border-radius: 20px;
-  margin: 10px ;
+  margin: 0px 10px 10px 10px ;
   overflow: hidden;
   box-shadow: 2px 2px 10px #b1abab;
   border: 3px solid white;
@@ -512,12 +510,13 @@ form input {
 }
 .txtcadre2 h2{
   font-size: 14px;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 20px 0px 0px;
   line-height: 1.3;
 }
 .txtcadre2 p{
   font-size: 12px;
-  margin: 0px;
+  margin: 0px 20px 0px 0px;
+  line-height: 1;
 }
 .txtcadre2 .star {
   bottom: -3px;
@@ -646,24 +645,20 @@ form input {
     margin: 20px 0px 0px 35px;
   }
   .txt2 {
-    margin: 10px 0px 0px 35px;
-  }
- 
-  .cadre1{
-    width: 200px;
-    height: 180px;
+    margin: 20px 0px 0px 50px;
   }
   .cd1_img3 img {
     width: 100%;
     bottom: 60px;
   } 
 }
+
   /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 /*--------------------@media query--------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-@media screen and (max-width: 1155px) {
+@media screen and (max-width: 1330px) {
 .cadrefiltre{
   max-width: 100%;
   }
@@ -680,10 +675,13 @@ form input {
   line-height:15px;
 }
 .txt1 {
-  margin: 20px 0px 0px 25px;
+  margin: 20px 0px 0px 40px;
+}
+.txtbox1fin{
+  margin-left: 40px;
 }
 .txt2 {
-  margin: 20px 0px 0px 20px;
+  margin: 20px 0px 0px 45px;
 }
 .txtcadre2 .star{
   line-height:30px
@@ -698,6 +696,24 @@ form input {
   bottom: 0px;
 }
 }
+  /*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*--------------------@media query--------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 1250px) {
+  .txt1 {
+    margin: 20px 0px 0px 30px;
+  }
+  .txt2 {
+    margin: 20px 0px 0px 30px;
+  }
+  .txtbox1fin{
+    margin-left: 30px; 
+  }
+
+ 
+}
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 /*--------------------@media query--------------------------------------------------*/
@@ -711,12 +727,16 @@ form input {
   .cd1_img3 img {
     bottom: 20%;
   }
+  .cd1_img5 img {
+    bottom: 32%;
+    width: 110%;
+}
   .star {
     line-height: 2.3;
   }
   .cadre2{
     width: 250px;
-    height: 100px;
+    height: 106px;
   }  
   .txtcadre1{
    line-height: 1;
@@ -753,16 +773,12 @@ form input {
     width: 25%;
     padding: 10px;
   }
-  .txt2{
-    margin: 10px 0px 0px 10px;
-  }.txt2 i {
-    top: 30px;
-  }
+  
   .cd2_img1 img {
     position: absolute;
     right: 100px;
     top:  0px;
-    width: 70%;
+    width: 75%;
   }
   .cd2_img2 img {
     position: absolute;
@@ -777,9 +793,12 @@ form input {
  .txt1{
     margin: 10px 0px 0px 20px;
   }
+  .txt2{
+    margin: 7px 0px 0px 10px;
+  }
   .txt2 i{
     font-size: 12px;
-    top: 10px;
+    top: 18px;
   }
 }
 /*----------------------------------------------------------------------------------*/
@@ -802,11 +821,15 @@ form input {
   height: 90px;
   margin: 10px;
 }
-.txt2{
-  margin: 0px 0px 0px 5%;
-}
 .txt1{
-  margin: 10px 0px 0px 20px;
+  margin: 10px 0px -10px 20px;
+}
+.txt2{
+  margin: 10px 0px -10px 10px;
+}
+.txt2 i{
+
+  top: 17px;
 }
 .cd2_img1{
   position: absolute;
@@ -841,7 +864,7 @@ form input {
   }
 .cadre1{
   width: 150px;
-  height: 130px;
+ 
 }
 .cd2_img1 img { 
   width: 80%; 
@@ -900,14 +923,14 @@ form input {
    
 }
 .box2{
-  height: 540px;
-  padding-top: 20px;
+  height: 590px;
+ 
   }
 .cadre2{
-  height: 130px;
+  height: 145px;
 }
 .cd2_img1 img {
-  width: 116%;
+  width: 130%;
   top: 0px;
   right: 46px;
 }
@@ -916,14 +939,20 @@ form input {
   
   right: 92px;
 }
-.txt2 h1{
-  font-size: 12px;
+.txt2 h2{
+  font-size: 14px;
+}
+.txt1 {
+  margin: 10px 0px -20px 50px;
+}
+.txtbox1fin{
+  margin-left: 50px;
 }
 .txt2 {
-  margin: -34px 0px 0px 5%;
+  margin: 10px 0px -20px 10px;
 }
 .txt2 i {
-  top: 13px;
+  top: 17px;
 }
 .txtcadre2 p {
   margin: 0px 0px 71px 0px;
@@ -990,7 +1019,7 @@ form input {
   margin-left: 10px;
   }
 .cd2_img1 img {
-  width: 124%;
+  width: 130%;
   right: 39px;
   top: 0px;
       }
@@ -1023,11 +1052,19 @@ form input {
  /*----------------------------------------------------------------------------------*/
  @media screen and (max-width: 769px) {
    .box2{
-    height: 505px;
-    align-content: flex-start;
-    padding-top: 57px;
+    height: 590px;
    }
+   .cd2_img1 img {
+    width: 145%;
+        }
+   .cadre2{
+    height: 145px ;
   }
+  .txt2 i {
+    top: 20px;
+    right: 15px;
+  }
+}
   /*----------------------------------------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
  /*--------------------@media query--------------------------------------------------*/
@@ -1035,14 +1072,15 @@ form input {
  /*----------------------------------------------------------------------------------*/
  @media screen and (max-width: 721px) {
   .cd2_img1 img {
-    width: 145%;
-    right: 26px;
-    top: -2px;
+    width: 165%;
+    right: 10px;
+    top: 0px;
     }
   .cd2_img3 img {
     width: 105%;
     right: 91px;
   }
+  
  }
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
@@ -1264,19 +1302,19 @@ header{
     margin-left: 0px;
     bottom: 3px;
   }
-.txtbox{
-    margin: 20px 0px 0px 0px;
+.txt3{
+    margin: 20px 0px 0px 10px;
   }
-.txt1 h1{
-    margin-left: 0px;
+  .txt1 {
+    margin: 20px 0px 00px 0px;
 }
 .txt2 {
-    margin: 20px 0px 20px 0px;
+  margin: 10px 0px -34px 10px;
 }
-.txt2 h1{
-    top: 0px;
+.txt2 h2{
+   
     font-size: 16px;
-    margin-left: 10px;
+    
 }
 .txt2 i{
     font-size: 16px;
@@ -1285,7 +1323,7 @@ header{
 }
 .txt3 h1{
     font-size: 16px;
-    margin-left: 10px;
+   
 }
 .footer{
     flex-direction: column;
@@ -1298,7 +1336,7 @@ header{
     margin-left: 0px;
 }
 .txtbox1fin{
-    margin-left: 0px;
+    margin-left: 10px;
 }
  }
  
