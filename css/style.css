@@ -151,10 +151,11 @@ header {
 }
 .trouver p{
   font-size: 14px;
+  margin: 0px;
   }
 .zone {
   position: relative;
-  margin: 10px 0 20px 25px;
+  margin: 0px 0 20px 25px;
   display: flex;
   flex-direction: row;
   width: 300px;
@@ -1168,7 +1169,9 @@ header{
     width: 90%;
     margin-left: 10px;
 }
-
+.trouver p{
+  margin: 15px 0px 20px 0px;
+}
 .recherche {
   width: 40px;
   height: 40px;
