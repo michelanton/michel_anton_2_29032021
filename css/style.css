@@ -873,6 +873,10 @@ form input {
   .cadrefiltre{
     width: 100%;
   }
+  .filtre {
+    margin: 0px 0px 20px 30px;
+   
+}
   .logement p{
     font-size: 13px;
   }
@@ -932,10 +936,7 @@ form input {
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 @media screen and (max-width: 812px) {
-  .filtre {
-    margin: 0px 0px 20px 30px;
-   
-}
+ 
 .box2{
   height: 590px;
  
@@ -981,8 +982,12 @@ form input {
 #one{
    padding-top: 20px;
    }
+.logo{
+  margin-left: 20px;
+}
 .zone {
-  max-width: 50%;    
+  max-width: 50%;  
+  margin-left: 20px;  
    }
 .zone_choix {
   min-width: 260px;
@@ -999,6 +1004,9 @@ form input {
 .trouver {
   margin: 10px 0px 10px 20px;  
   }
+  .iconinfo {
+    margin: 20px 0px 20px 10px;
+}
 .txtcadre2 {
   width:90px;
   }
@@ -1122,7 +1130,7 @@ header{
   margin-left: 10px;
 }
 .iconinfo{
-    margin-left: 0px;
+    margin: 10px 0px 10px 0px
 }
 .menu {
     display: flex;
