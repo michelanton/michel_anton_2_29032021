@@ -155,7 +155,7 @@ header {
   }
 .zone {
   position: relative;
-  margin: 0px 0 20px 25px;
+  margin: 0px 0 20px 30px;
   display: flex;
   flex-direction: row;
   width: 300px;
@@ -1286,6 +1286,7 @@ header{
     padding: 0px;
     margin-bottom: 30px;
     align-items: center;
+    height: auto;
 }
 .cadre3 img {
     right:0px;
