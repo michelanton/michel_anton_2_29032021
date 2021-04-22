@@ -7,10 +7,12 @@
     src: url(../Raleway/static/Raleway-Bold.ttf);
   }
 body {
+    position: relative;
     max-width: 1440px;
     margin: 0px auto;
     padding: 0px;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -947,4 +949,5 @@ footer {
 }
 .txt2 i {
     font-size: 18px;
+}
 }
