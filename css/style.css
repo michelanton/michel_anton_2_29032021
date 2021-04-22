@@ -523,7 +523,7 @@ footer {
 .footer_txt {
   justify-items: left;
   width: 30%;
-  padding: 15px 0px 20px 10px;
+  padding: 15px 0px 20px 0px;
   
   line-height: 2;
   word-spacing: 1px;
@@ -894,6 +894,11 @@ footer {
     line-height: 1.2;
 }
 }
+/*----------------------------------------------------------------------------------*/
+ /*----------------------------------------------------------------------------------*/
+ /*--------------------@media query--------------------------------------------------*/
+ /*----------------------------------------------------------------------------------*/
+ /*----------------------------------------------------------------------------------*/
 /* Extra small devices (phones, 600px and down)*/ 
 @media only screen and (max-width: 360px) {
 .block_txt h2 {
@@ -932,13 +937,14 @@ footer {
 .block2_txt_cadre .star {
     font-size: 12px;
 }
-.block3_cadre3, .block3_cadre3_2  {
+.block3_cadre3, .block3_cadre3_2 {
     width: 95%;
     height: 250px;
     margin: 10px auto;
 }
 .fort, .friout {
     height: 250px;
-  
 }
+.txt2 i {
+    font-size: 18px;
 }
