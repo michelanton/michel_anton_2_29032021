@@ -1,18 +1,17 @@
 @font-face {
     font-family: "Raleway";
     src: url(../Raleway/Raleway-VariableFont_wght.ttf);
-  }
+}
 @font-face {
     font-family: "Ralewaybolt";
     src: url(../Raleway/static/Raleway-Bold.ttf);
-  }
+}
 body {
     position: relative;
     max-width: 1440px;
     margin: 0px auto;
     padding: 0px;
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -33,7 +32,6 @@ p {
 }
 .logo svg {
     fill:  #0065fc;
-    margin: 00px 0px 0px 0px ;
 }
 .menu {
     position: absolute;
@@ -100,12 +98,14 @@ p {
     position: absolute;
     right: -2px;
     cursor: pointer;
+    overflow: visible;
+
     height: 36px;
     width: 30%;
+
     background-color: #0065fc;
     border-top-right-radius: 12.5px;
     border-bottom-right-radius: 12.5px;
-    overflow: visible;
 }
 .bouton_txt h2  {
     font-size: 12px;
@@ -115,10 +115,11 @@ p {
 }
 .bouton_icon {
     display: none;
+    margin: 10px 10px 0px 10px;
+
     color: white;
     font-family: "Raleway", 'Courier New', Courier, monospace;
     line-height: 33px;
-    margin: 10px 10px 0px 10px;
 }
 .block_tete_bouton:hover {
     opacity: 0.8;
@@ -126,9 +127,9 @@ p {
 .boxsaisie  {
     margin-left: 10px;
 }
-
 form input {
     cursor: pointer;
+
     border: none;
     font-family: "Ralewaybolt", 'Courier New', Courier, monospace;
 }
@@ -168,18 +169,21 @@ form input {
     border: 2px solid #b1c7e7;
     box-shadow: 0px 0px 10px #b1abab;
     background-color: #dfe5ec;
+
     transition: 0.2s;
 }
 .bouton {
-    cursor: pointer;
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 2px solid #ccc6c6;
-    position: relative;
-    border-radius: 20px;
+    cursor: pointer;
+
     height: 30px;
     margin: 0px 0px 0px 30px;
+
+    border: 2px solid #ccc6c6;
+    border-radius: 20px;    
 }
 .bouton h2 {
     margin: 0px 10px 0px 40px;
@@ -187,31 +191,37 @@ form input {
 .icon {
     position: absolute;
     left: -3px;
-    text-align: center; 
-    background-color: #deebff;
-    border-radius: 50%;
+
     width: 34px;
     height: 34px;
+ 
+    background-color: #deebff;
+    border-radius: 50%;
+    text-align: center;
   }
 .icon i {
     padding-top: 10px;
+
     font-size: 14px;
     color: #0065fc;
 }
 .block_tete_txt_fin {
     position: relative;
-    margin: 20px 0px 20px 0px;
     display: flex;
     flex-direction: row;
+    margin: 20px 0px 20px 0px;
 }
 .block_tete_txt_fin_icon { 
     position: absolute;
     left: 0px;
     top: 10px;
-    border-radius: 50%;
-    border: 2px solid #f2f2f2;
+
     width: 20px;
     height: 20px;
+
+    border-radius: 50%;
+    border: 2px solid #f2f2f2;
+    
     text-align: center;
     font-size: 12px;
 }
@@ -226,6 +236,7 @@ form input {
 }
 .block_txt {
     cursor: pointer;
+
     width: 100%;
     height: 50px;
 
@@ -239,8 +250,8 @@ form input {
 }
 .txt2 i {
     position: absolute;
-
     right: 60px;
+
     margin: 0px 0px 0px 30px;
 } 
 .txt3 {
@@ -266,27 +277,29 @@ form input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
-    background-color: #f2f2f2;
-    border-radius: 20px;
-   
+    
     width: 60%;
 
     padding: 10px;
     margin-left: 0px;
+
+    background-color: #f2f2f2;
+    border-radius: 20px;
 }
 .block1_cadre {
     display: flex;
     flex-direction: column;
-    border: 3px solid white;
-    width: 28%;
-    height: 200px;
-    border-radius: 20px;
     position: relative;
     overflow: hidden;
-    box-shadow: 2px 2px 10px #b1abab;
     cursor: pointer;
     margin: 0px 10px 20px 10px;
+    
+    width: 28%;
+    height: 200px;
+
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #b1abab;
 }
 .cd1_img img {
   width: 100%;
@@ -297,14 +310,17 @@ form input {
 }
 .block1_txt_cadre {
     position: absolute;
+    bottom: 0px;
     display: flex;
     flex-direction: column;
-    height: 70px;
-    width: 100%;
-    bottom: 0px;
-    background-color: white;
     overflow: hidden;
     padding: 5px 0px 0px 5px;
+
+    height: 70px;
+    width: 100%;
+   
+    background-color: white;
+
     line-height: 1.5;
 } 
 .block1_txt_cadre h2 {  
@@ -317,21 +333,24 @@ form input {
  }
 .block1_txt_fin {
     width: 100%;
+
     text-align: left;
     font-size: 12px;
     margin-left: 20px;
 } 
 .block1_txt_fin:hover {
     cursor: pointer;
+
     opacity: 0.8;
     text-decoration: underline;
 }
 .star {
-    font-size: 9px;
     position: absolute;
-    color: #0065fc;
-    line-height:30px;
     bottom: 0px;
+
+    color: #0065fc;
+    line-height:3;
+    font-size: 9px;
 }
 .cd1 i:nth-last-child(1) {
     color: #f2f2f2;
@@ -381,6 +400,7 @@ form input {
     cursor: pointer;
     position: relative;
     overflow: hidden;
+
     width: 90%;
     height: 147px;
 
@@ -392,6 +412,7 @@ form input {
 }
 .block2_cadre img {
     object-fit: cover;
+
     height: 100%;
 }
 .block2_cadre:hover {
@@ -403,22 +424,25 @@ form input {
     right: 0px;
     top: 0px;
     justify-content: space-between;
-    height: 100%;
-    width: 55%;
     overflow: hidden;
     padding: 0px 0px 0px 10px;
 
+    height: 100%;
+    width: 55%;
+
     background-color: white;
-  
+
     line-height: 2;
 }
 .block2_txt_cadre h2 {
     margin: 10px 20px 0px 0px;
+
     font-size: 14px;
     line-height: 1.3;
 }
 .block2_txt_cadre p {
     margin: 0px 20px 0px 0px;
+
     font-size: 12px;
     line-height:3;
 }
@@ -429,12 +453,10 @@ form input {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  
-    width: 100%;
-   
     padding: 20px;
-
-    margin-top: 20px; 
+    margin-top: 20px;
+  
+    width: 100%;   
 }
 .block3_cadre3 {
     position: relative;
@@ -447,9 +469,10 @@ form input {
 }
 .block3_cadre3_2 {
     position: relative;
+    overflow: hidden;
+
     width: 100%;
     height: 45%;
-    overflow: hidden;
 
     border: 0px solid white;
     box-shadow: 2px 2px 10px #b1abab;
@@ -483,22 +506,25 @@ form input {
     bottom: 0px;
     display: flex;
     flex-direction: column;
+    padding: 0px 0px 0px 5px;
+
     height: 40px;
     width: 100%;
-    padding: 0px 0px 0px 5px;
     
     background-color: white;
 
-    line-height: 1.2s;
+    line-height: 1.2;
 }
 .block3_txt_cadre h2 {
-    font-size: 14px;
     margin: 10px 5px 0px 5px;
+
+    font-size: 14px;
     word-spacing: 2px;
     font-size-adjust: 0.5;
 }
 .block3_1cadre {
     display: flex;
+
     width: 22%;
     height: 390px;
 }
@@ -506,6 +532,7 @@ form input {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     width: 22%;
     height: 390px;
 }
@@ -516,11 +543,11 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px 0px;
+  margin-top: 30px; 
+
   width: 100%;
 
-  background-color: #f2f2f2;
-  
-  margin-top: 30px;    
+  background-color: #f2f2f2;   
 }
 .footer_txt {
   justify-items: left;
@@ -573,16 +600,43 @@ footer {
  /* Large devices (desktops, 992px and up)*/
  @media (max-width: 992px) { 
 .block1_cadre {
-    height: 160px;
+    height: 150px;
+    width: 25%;
 }
 .block1_txt_cadre {
     height: 60px; 
 }
 .block2_cadre {
-    height: 122px;
+    height: 118px;
 }
 .block3_txt_cadre h2 {
     margin-top: 5px;
+}
+.block1_txt_cadre h2{
+    font-size: 10px;
+    margin-right: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.block2_txt_cadre h2{
+    margin-right: 5px;
+    font-size: 10px; 
+}
+.block1_txt_cadre p {
+    font-size: 10px;
+}
+.block2_txt_cadre p{
+    margin-top: 5px;
+    font-size: 10px;
+    line-height: 1.3;
+}
+.txt1 h2, .txt2 h2, .txt2 i, .txt3 h2{
+    font-size: 16px;
+    line-height: 2.5;
+}
+.txt2 i{
+    right: 35px;
 }
 }
   /*----------------------------------------------------------------------------------*/
@@ -602,33 +656,14 @@ footer {
     margin-top: 0px;
 }
 .block1_cadre {
-    height: 145px;
+    height: 130px;
     width: 26%;
 }
 .block1_txt_cadre {
-    height: 60px; 
+    height: 50px; 
 }
 .block2_cadre {
-    height: 110px;
-}
-.block1_txt_cadre h2{
-    font-size: 10px;
-    margin-right: 5px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-.block2_txt_cadre h2{
-    font-size: 10px;
-    margin-right: 5px;
-}
-.block1_txt_cadre p {
-    font-size: 10px;
-}
-.block2_txt_cadre p{
-    margin-top: 5px;
-    font-size: 10px;
-    line-height: 1.3;
+    height: 100px;
 }
 .txt1 h2, .txt2 h2, .txt2 i, .txt3 h2{
     font-size: 14px;
@@ -647,8 +682,9 @@ footer {
 .block3_1cadre, .block3_2cadre {
     height: auto;
 }
-.star{
+.star {
     font-size: 8px;
+    bottom: 00px;
 }
 .footer_txt .link1 {
     font-size: 14px;
@@ -663,8 +699,8 @@ footer {
  /*--------------------@media query--------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------------------------------------------------------*/
-@media screen  and (max-width: 670px) {
-.block_corps{
+@media screen  and (max-width: 680px) {
+.block_corps {
     padding-top: 20px;
 }
 
@@ -672,34 +708,42 @@ footer {
 .menu {
     display: flex;
     flex-wrap: wrap;
-   width: 100%;
-    height: 30px;
     margin: 5px 0px 20px 10px;
     padding-top: 30px;
+
+    width: 100%;
+    height: 40px;
+    
     line-height: 2;
 }
 .ins {
     position: absolute;
     top: 0px;
+
     right: 0px;
     width: 30%;
 }
 .act {
     position: absolute;
     bottom: 0px;
+
     width: 50%;
     right: 0%;
+
     border-bottom: 2px solid #f2f2f2;
+
     line-height: 2;
 }
 .heb {
     position: absolute;
     bottom: 0px;
+    left: 0%;
+
     width: 50%;
   
     border-bottom: 2px solid #0065fc;
     border-top: 0;
-    left: 0%;
+    
     line-height: 2;
 }
 .order1 {
@@ -721,9 +765,10 @@ header {
     height: 38px; 
 }
 .block_tete {
-    width: 90%;
     margin-left: 10px;
     margin-top: 20px;
+
+    width: 90%;
 }
 .block_tete  p {
     margin: 12px 0px 20px 0px;
@@ -731,16 +776,18 @@ header {
 .block_tete_bouton {
     width: 36px;
     height: 36px;
+
     border: 2px solid #0065fc;
     border-radius: 14.28571px;
 }
 .block_tete_zone {
+    margin: 0px 0px 10px 0px;
+
     max-width: 80%;
     height: 38px;
-    margin: 0px 0px 10px 0px;
 }
 .block_filtre h2 {
-    margin-left: s0px;
+    margin-left: 0px;
 }
 .bouton h2 {
     margin: 0px 10px 0px 40px;
@@ -750,6 +797,7 @@ header {
 }
 .bouton_icon {
     display: inline;
+
     line-height: 2.4;
     text-align: center;
 }
@@ -757,7 +805,6 @@ form input {
     font-size: 14px;
     margin-top: 5px;
 }
-
 .bouton {
     margin: 5px 10px 5px 0px;
 }
@@ -769,29 +816,31 @@ form input {
 /*-------------------------------------*//*-------------------------------------*/
 
 .block3_1cadre, .block3_2cadre {
+    padding: 0px 10px;
     width: 100%;
-    padding: 0px 10px
 } 
 .block1_cadre {
+    margin: 10px 0px; 
+
     width: 95%;
     height: 290px;
-    margin: 10px 0px; 
 }
 .block2_cadre {
     width: 95%;
     height: 260px;
+
     border-radius: 20px;
 }
-.block3_cadre3, .block3_cadre3_2  {
+
+.block3_cadre3, .block3_cadre3_2 {
+    margin: 10px auto;
+
     width: 95%;
     height: 260px;
-    margin: 10px auto;
 }
 .fort, .friout {
     height: 260px;
-
 }
-
 
 /*-----------------------------------*//*-------------------------------------*/
 /*-------------------------------------*//*-------------------------------------*/
@@ -802,22 +851,25 @@ form input {
 }
 .block1 {
     width: 100%;
+
     border-radius: 0px;
     background-color: white;
 } 
-
 .block2 {
     justify-content: space-between;
     margin: 0px;
+    padding: 0px 10px;
+
     width: 100%;
     height: 1100px;
-    padding: 0px 10px;
+  
     border-radius: 0px;
 }
 .block3 {
     padding: 0px;
     margin-bottom: 30px;
     align-items: center;
+
     height: auto;
 }
 .block3_txt_cadre h2 {
@@ -826,49 +878,57 @@ form input {
 }
 .block2_txt_cadre {
     padding-left: 10px;
+
     width: 55%;
     height: 100%;
 }
 .block2_txt_cadre h2 {
     margin: 15px 15px 0px 10px;
+
     line-height: 1.2;
     font-size: 22px;
 }
 .block2_txt_cadre p {
     margin: 0px 0px 0px 10px;
+
     line-height: 2;
     font-size: 20px;
 }
 .block2_txt_cadre .star {
-    font-size: 15px;
     margin-left: 10px;
     bottom: 10px;
+
+    font-size: 15px;
 }
 .block1_txt_cadre {
+    padding-left: 10px;
+
     width: 100%;
     height:95px;
-    padding-left: 10px;
 }
 .block1_txt_cadre h2 {
     margin: 5px 0px 0px 0px;
+
     font-size: 22px;
     line-height: 1;
-  }
+}
 .block1_txt_cadre p {
     margin: 5px 0px 0px 0px;
+
     font-size: 20px;
     line-height: 1;
 }
 .block1_txt_cadre .star {
-    font-size: 15px;
-    margin-left: 0px;
     bottom: 05px;
+    margin-left: 0px;
+   
+    font-size: 15px;
 }
 .block_txt {
     height: 100px;
 }
 .block_txt h2 {
-    font-size: 28px;
+    font-size: 24px;
 }
 .txt3 { 
     margin: 20px 0px 0px 25px;
@@ -880,8 +940,8 @@ form input {
     margin: 10px 0px -34px 10px;
 }
 .txt2 i {
-    font-size: 26px;
-  
+    font-size: 22px;
+
     right: 25px;
 }
 footer {
@@ -889,8 +949,9 @@ footer {
     padding-left: 0px;
 }
 .footer_txt {
-    width: 100%;
     padding: 20px 0px 30px 30px;
+
+    width: auto;
 }
 .footer_txt h2 {
     line-height: 1.2;
@@ -903,11 +964,15 @@ footer {
  /*----------------------------------------------------------------------------------*/
 /* Extra small devices (phones, 600px and down)*/ 
 @media only screen and (max-width: 360px) {
+body {
+    min-width: 270px;
+}
 .block_txt h2 {
     font-size: 20px;
 }
 .block1_txt_fin {
     margin-left: 20px;
+
     font-size: 12px;
 }
 .block2 {
@@ -918,8 +983,9 @@ footer {
     font-size: 18px;
 }
 .block2_txt_cadre p {
-    font-size: 16px;
     margin-right: 5px;
+
+    font-size: 16px;
 }
 .block1_txt_cadre h2 { 
     font-size: 18px;
@@ -940,9 +1006,10 @@ footer {
     font-size: 12px;
 }
 .block3_cadre3, .block3_cadre3_2 {
+    margin: 10px auto;
+
     width: 95%;
     height: 250px;
-    margin: 10px auto;
 }
 .fort, .friout {
     height: 250px;
