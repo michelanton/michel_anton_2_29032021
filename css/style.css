@@ -703,14 +703,14 @@ footer {
     
     line-height: 2;
 }
-.ins {
+.inscription {
     position: absolute;
     top: 0px;
 
     right: 0px;
     width: 30%;
 }
-.act {
+.activite {
     position: absolute;
     bottom: 0px;
 
@@ -721,7 +721,7 @@ footer {
 
     line-height: 2;
 }
-.heb {
+.hebergement {
     position: absolute;
     bottom: 0px;
     left: 0%;
