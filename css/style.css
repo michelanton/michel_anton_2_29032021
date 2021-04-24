@@ -51,26 +51,26 @@ p {
     font-family: "Ralewaybolt", 'Courier New', Courier, monospace;
     font-size: 12px;
 }
-.heb 
+.hebergement 
 {
     border-top: 2px solid #0065fc;
     width: 100%;
 }
-.heb a {
+.hebergement a {
     color: #0065fc;
 }
-.act {
+.activite {
     margin-top: 2px;
     width: 100%;
 }
-.act a {
+.activite a {
     color: black;
 }
-.ins {
+.inscription {
     margin-top: 2px;
     width: 100%;
 }
-.ins a{
+.inscription a{
     color: #0065fc;
 }
 .link1 :hover {
@@ -133,7 +133,7 @@ form input {
     border: none;
     font-family: "Ralewaybolt", 'Courier New', Courier, monospace;
 }
-.block_tete_input{
+.block_tete_input {
     margin-left: 10px;
   }
 .block_tete_icon_recherche {
@@ -146,7 +146,6 @@ form input {
 
     text-align: center;
     line-height: 35px;
-  
 }
 .block_filtre {
     display: flex;
@@ -165,7 +164,7 @@ form input {
 .bouton_choix {
     margin: 0px 10px;
 }
-.bouton:hover{
+.bouton:hover {
     border: 2px solid #b1c7e7;
     box-shadow: 0px 0px 10px #b1abab;
     background-color: #dfe5ec;
@@ -225,7 +224,7 @@ form input {
     text-align: center;
     font-size: 12px;
 }
-.block_tete_txt_fin_icon i{
+.block_tete_txt_fin_icon i {
     padding-top: 3px;
     color: #0065fc;
 }
@@ -272,7 +271,7 @@ form input {
 
     width: 100%;
 }
-  /*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*/
+  /*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*/
 .block1 {
     display: flex;
     flex-wrap: wrap;
@@ -383,7 +382,8 @@ form input {
     color: #f2f2f2;
 }
   /*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*//*BOX 1*/ 
-  /*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*/  /*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*/
+
+  /*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*/ 
 .block2 {
     display: flex;
 
@@ -447,8 +447,8 @@ form input {
     line-height:3;
 }
   /*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*//*BOX 2*/ 
-  /*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*/ /*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*/
- /*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*/
+
+  /*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*/ 
 .block3 {
     display: flex;
     flex-wrap: wrap;
@@ -478,7 +478,7 @@ form input {
     box-shadow: 2px 2px 10px #b1abab;
     border-radius: 20px;
 }
-.block3_cadre3:hover, .block3_cadre3_2:hover{
+.block3_cadre3:hover, .block3_cadre3_2:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
 }
@@ -536,7 +536,8 @@ form input {
     width: 22%;
     height: 390px;
 }
-  /*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*/
+  /*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*//*BOX 3*/
+
   /* FOOTER*//* FOOTER*//* FOOTER*//* FOOTER*//* FOOTER*/
 footer {
   display: flex;
@@ -568,14 +569,10 @@ footer {
   font-size: 16px;
   line-height: 0.4;
   word-spacing: 1px;
-  letter-spacing: 0.5px;
-    
+  letter-spacing: 0.5px;   
 }
-/*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
  /*--------------------@media query--------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
+
  /* Extra large devices (large desktops, 1200px and up)*/
 @media (max-width: 1200px) { 
 .block1_cadre {
@@ -592,11 +589,8 @@ footer {
 }
 }
  
-  /*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
  /*--------------------@media query--------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
+ 
  /* Large devices (desktops, 992px and up)*/
  @media (max-width: 992px) { 
 .block1_cadre {
@@ -619,34 +613,30 @@ footer {
     overflow: hidden;
     white-space: nowrap;
 }
-.block2_txt_cadre h2{
+.block2_txt_cadre h2 {
     margin-right: 5px;
     font-size: 10px; 
 }
 .block1_txt_cadre p {
     font-size: 10px;
 }
-.block2_txt_cadre p{
+.block2_txt_cadre p {
     margin-top: 5px;
     font-size: 10px;
     line-height: 1.3;
 }
-.txt1 h2, .txt2 h2, .txt2 i, .txt3 h2{
+.txt1 h2, .txt2 h2, .txt2 i, .txt3 h2 {
     font-size: 16px;
     line-height: 2.5;
 }
-.txt2 i{
+.txt2 i {
     right: 35px;
 }
 }
-  /*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
  /*--------------------@media query--------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
   /* Medium devices (landscape tablets, 768px and up)*/ 
 @media only screen and (max-width: 768px) {
-.menu{
+.menu {
     width: 50%;
 }
 .bouton {
@@ -665,17 +655,17 @@ footer {
 .block2_cadre {
     height: 100px;
 }
-.txt1 h2, .txt2 h2, .txt2 i, .txt3 h2{
+.txt1 h2, .txt2 h2, .txt2 i, .txt3 h2 {
     font-size: 14px;
     line-height: 2.5;
 }
-.txt2 i{
+.txt2 i {
     right: 35px;
 }
 .block1_txt_fin {
     font-size: 10px; 
 }
-.block3_txt_cadre h2{
+.block3_txt_cadre h2 {
     font-size: 10px;
     margin: 10px 5px 0px 5px;
 }
@@ -694,21 +684,17 @@ footer {
 }
 }
 
- /*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
+
  /*--------------------@media query--------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
+
 @media screen  and (max-width: 680px) {
 .block_corps {
     padding-top: 20px;
 }
-
-
 .menu {
     display: flex;
     flex-wrap: wrap;
-    margin: 5px 0px 20px 10px;
+    margin: 5px 0px 0px 10px;
     padding-top: 30px;
 
     width: 100%;
@@ -769,9 +755,13 @@ header {
     margin-top: 20px;
 
     width: 90%;
+    
 }
 .block_tete  p {
     margin: 12px 0px 20px 0px;
+}
+.block_tete  h1 {
+    margin:40px 0px 20px 0px;
 }
 .block_tete_bouton {
     width: 36px;
@@ -811,10 +801,6 @@ form input {
 .block_tete_txt_fin p {
     margin-left: 40px;
 }
-
-/*-------------------------------------*//*-------------------------------------*/
-/*-------------------------------------*//*-------------------------------------*/
-
 .block3_1cadre, .block3_2cadre {
     padding: 0px 10px;
     width: 100%;
@@ -831,7 +817,6 @@ form input {
 
     border-radius: 20px;
 }
-
 .block3_cadre3, .block3_cadre3_2 {
     margin: 10px auto;
 
@@ -841,10 +826,6 @@ form input {
 .fort, .friout {
     height: 260px;
 }
-
-/*-----------------------------------*//*-------------------------------------*/
-/*-------------------------------------*//*-------------------------------------*/
-
 .block1_txt_fin {
     margin-left: 40px;
     font-size: 16px;
@@ -957,11 +938,6 @@ footer {
     line-height: 1.2;
 }
 }
-/*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
- /*--------------------@media query--------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
- /*----------------------------------------------------------------------------------*/
 /* Extra small devices (phones, 600px and down)*/ 
 @media only screen and (max-width: 360px) {
 body {
