@@ -413,7 +413,7 @@ form input {
 }
 .block2_cadre img {
     object-fit: cover;
-
+    max-width: 90%;
     height: 100%;
 }
 .block2_cadre:hover {
@@ -939,7 +939,7 @@ footer {
     line-height: 1.2;
 }
 }
-/* Extra small devices (phones, 600px and down)*/ 
+/* Extra small devices */ 
 @media only screen and (max-width: 360px) {
 body {
     min-width: 270px;
